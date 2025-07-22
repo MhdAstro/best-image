@@ -12,7 +12,7 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 # کپی فایل نیازمندی‌ها و نصب پکیج‌ها با استفاده از کش لایه‌ها
 COPY requirements.txt .
-[cite_start]RUN pip install --no-cache-dir -r requirements.txt [cite: 2]
+RUN pip install --no-cache-dir -r requirements.txt
 
 # --- STAGE 2: Runner ---
 # در این مرحله، از ایمیج سبک پایتون استفاده کرده و فقط فایل‌های اجرایی و وابستگی‌های نصب‌شده را کپی می‌کنیم.
