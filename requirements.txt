@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+aiohttp
+opencv-python-headless
+numpy
+Pillow
+rembg
+onnxruntime
+pydantic-settings
